@@ -1,0 +1,103 @@
+https://blog.csdn.net/samuelcoulee/article/details/8674388    new 创建二级数组
+https://zhuanlan.zhihu.com/p/532164085                        const 常引用
+https://blog.csdn.net/luoyayun361/article/details/87972929    ostream <<重载
+https://blog.csdn.net/MumuziD/article/details/109161095       位运算符<<
+https://blog.csdn.net/Gransand/article/details/79575080       与或异或
+https://blog.csdn.net/qq_40951833/article/details/103247741   宏定义替换
+
+
+
+1. char* a[] = {"hello", "the", "world"};    指针数组  初始化
+
+2.  输入输出流重载不能调用函数  只能用数据
+
+3.struct person class[10] = {"John",17, "Paul",19, "Mary",18, "adam",16}; 
+结构体构造初始化.
+
+4.
+int (*(*F)(int, int))(int)    定义一个函数指针，指向的函数有两个int形参并且返回一个函数指针，返回的指针指向一个有一个int形参且返回int的函数。
+
+5. 
+
+12.34 1e+5 0.1E12   
+
+ 合法的浮点数有两种表示形式： 
+
+ 
+  
+   
+    十进制小数形式。他有数字和小数点组成，必须有小数点。例如（123.）（123.0）（.123）。   
+
+    
+   
+    指数形式。如123e3。字母e（或E）之前必须有数字，e后面的指数必须为整数。   
+
+    
+   
+    规范化的指数形式里面，小数点前面有且只有一位非零的数字。如1.2345e8  
+6.，int类型占几个字节，指针占几个字节，操作系统可以使用的最大内存空间是多大：
+
+32位下：4,4,2^32 64位下：4,8,2^64
+ 
+
+7   重载是编译时确定的，虚函数是运行时绑定的；
+
+8.删除文档  https://blog.csdn.net/qq_34644203/article/details/120311170
+
+9.文档重命名https://blog.csdn.net/qq_46056214/article/details/106606241
+
+
+10.
+64 位 和32 位 的各种数据类型的占用内存
+
+
+  32位编译器：  
+
+
+  
+         char ：1个字节
+
+          
+    char*（即指针变量）:
+      4个字节（32位的寻址空间是2^32, 即32个bit，也就是4个字节。同理64位编译器）
+
+          short int : 2个字节
+       int： 4个字节
+
+          unsigned int : 4个字节
+       float: 4个字节
+      
+    double: 8个字节
+       long: 4个字节
+       long long: 8个字节
+
+          unsigned long: 4个字节
+
+  
+
+
+  
+     64位编译器：  
+
+
+  
+         char ：1个字节
+       char*(即指针变量): 8个字节
+
+          short int : 2个字节
+      int： 4个字节
+
+          unsigned int : 4个字节
+       float: 4个字节
+      
+    double: 8个字节
+       long: 8个字节
+
+          long long: 8个字节
+
+  
+
+
+  
+          unsigned long: 8个字节
+  
